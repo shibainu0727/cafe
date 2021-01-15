@@ -1,6 +1,6 @@
 @media (max-width:1000px) {
-    .top-container > .container > h1{
-        font-size: 36px;
+    .top-logo img{
+        width: 50%;
     }
     .list-about {
         flex-wrap: wrap;
@@ -13,17 +13,10 @@
         flex-wrap: wrap;
     }
 
-    .access-info .access-map{
-        width: 50%;
-    }
-
     .news{
         width: 50%;
         text-align: center;
     }
-
-    .news-container dl{
-      }
       
     .news-container dt{
     text-align: center;
@@ -36,16 +29,15 @@
 }
 
 @media (max-width:670px) {
-    .top-container > .container > h1{
-        font-size: 24px;
-    }
     .list-about{
         flex-direction: column;
     }
     .list-about li {
         margin: 0 auto;
     }
-
+    .access-info,.access-map{
+        width: 100%;
+    }
     .access{
         flex-direction: column;
     }

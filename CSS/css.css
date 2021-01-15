@@ -6,9 +6,7 @@
     box-sizing: border-box; 
 }
 body{
-/* font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif; */
-margin:0;
-/* color:#313131; */
+    margin:0;
 }
 ul {
     padding: 0;
@@ -23,32 +21,28 @@ img {
 /*****NAV*****/
 
 .container {
-    /* max-width: 1160px; */
     width: 100%;
     margin: 0 auto;
 }
 
 nav{
-    width: 100%;
-    /* border: 1px solid white; */
-    overflow: hidden;
     background-color: black;
 }
 nav ul{
+    width: 60%;
     display: flex;
 	flex-flow: row;
     margin: 0;
-    margin-left: 60px;
-	padding: 6px;
-	list-style-type: none;
-    /* width: 60%; */
-    /* margin-left: 20%; */
+    padding: 24px;
+    padding-left: 16px;
+    list-style-type: none;
 }
 nav li {
+    flex: auto;
+    font-size: 50%;
     font-family: Wigwag;
     font-weight: bold;
-    /* font-size: 30px; */
-
+    padding: 0 15px;
 }
 
 nav li:hover{
@@ -56,11 +50,9 @@ nav li:hover{
 }
 
 .nav-link{
-    display: block;
 	border-radius: 4px;
-	padding: 12px 24px;
 	color: white;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .top-container{
@@ -74,7 +66,7 @@ nav li:hover{
     color:white;
     padding-left: 80px;
     padding-top: 230px;
-    font-size: 48px;
+    font-size: 2em;
     font-weight: bold;
     font-family: FOT-筑紫B丸ゴシック Std;
     text-shadow: 5px 5px 3px #000000;
@@ -86,15 +78,10 @@ nav li:hover{
     text-align: right;
 }
 
-.top-logo img{
-    width:40%;
-    /* height:25%; */
-}
-
 .title h1 {
     font-family: Wigwag;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 50%;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 25px;
@@ -153,18 +140,14 @@ nav li:hover{
 
 .access{
     display: flex;
-    
 }
 
 .access-info{
     flex:auto;
+    background-image:url(./../img/box_gray.png);   
+    background-size: cover;
     position: relative;
-    height: 390px;
-}
-
-.access-map{
-    flex:auto;
-    width: 100%;
+    width: 50%;
     height: 390px;
 }
 
@@ -173,12 +156,11 @@ nav li:hover{
     height: 100%;
 }
 
-
 .access-logo{
     position: absolute;
     top:50px;
     left:80px;
-    height: 78px;
+    width: 25%;
 }
 
 .access-info h2{
@@ -188,7 +170,9 @@ nav li:hover{
 }
 
 .access-map{
+    flex:auto;
     width: 50%;
+    height: 390px;
 }
 
 .access-map iframe{
@@ -200,16 +184,17 @@ nav li:hover{
     position: absolute;
     top:210px;
     left:80px;
-    width: 410px;
+    width: 80%;
     font-weight: bold;
   }
   
   .access-info dt{
-    width:120px;
     float:left;
+    clear: both;
     text-align: left;
     padding-right: 30px;
     margin-bottom:7px;
+    font-weight: bold;
     font-family: [TsukuBRdGothic];
   }
   
@@ -217,11 +202,10 @@ nav li:hover{
     color:#333;
     text-align: left;
     margin-bottom:7px;
+    font-weight: normal;
+    font-family: [TsukuBRdGothic];
   }
 
-.access{
-    display: flex;
-}
 .news-container{
     text-align: center;
 }

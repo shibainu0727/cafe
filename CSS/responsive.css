@@ -1,0 +1,46 @@
+@media (max-width:1000px) {
+    .list-about {
+        flex-wrap: wrap;
+    }
+    .list-about li{
+        width:33.333%;
+    }
+
+    .access{
+        flex-wrap: wrap;
+    }
+
+    .access-info .access-map{
+        width: 50%;
+    }
+
+    .news{
+        width: 50%;
+        text-align: center;
+    }
+
+    .news-container dl{
+      }
+      
+    .news-container dt{
+    text-align: center;
+    padding: 0;
+    }
+    
+    .news-container dd{
+    text-align: center;
+    }
+}
+
+@media (max-width:670px) {
+    .list-about{
+        flex-direction: column;
+    }
+    .list-about li {
+        margin: 0 auto;
+    }
+
+    .access{
+        flex-direction: column;
+    }
+}

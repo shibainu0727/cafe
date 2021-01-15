@@ -26,7 +26,7 @@ img {
     /* max-width: 1160px; */
     width: 100%;
     margin: 0 auto;
-  }
+}
 
 nav{
     width: 100%;
@@ -120,20 +120,51 @@ nav li:hover{
 }
 
 .list-about li {
-    width: 33.333%;
+    flex:auto;
 }
 
 .list-about li img {
-    width: 100%;
+    flex:auto;
 }
 
 .content{
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
+.content h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: [TsukuBRdGothic];
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.content p{
+    line-height: 2;
+}
+
+.price{
+    font-family: Wigwag;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.access{
+    display: flex;
+    
+}
+
 .access-info{
+    flex:auto;
     position: relative;
-    width:50%;
+    height: 390px;
+}
+
+.access-map{
+    flex:auto;
+    width: 100%;
     height: 390px;
 }
 
@@ -157,7 +188,7 @@ nav li:hover{
 }
 
 .access-map{
-    width:50%;
+    width: 50%;
 }
 
 .access-map iframe{
@@ -188,7 +219,7 @@ nav li:hover{
     margin-bottom:7px;
   }
 
-  .access{
+.access{
     display: flex;
 }
 .news-container{
@@ -202,18 +233,48 @@ nav li:hover{
 
   }
   
-  .news-container dt{
+.news-container dt{
     float:left;
+    clear: both;
     text-align: left;
     padding-right: 70px;
     margin-bottom:7px;
     font-family: [TsukuBRdGothic];
-    border-bottom: 1px solid #888888;
-  }
-  
-  .news-container dd{
+}
+
+.news-container dd{
     color:#333;
     text-align: left;
     margin-bottom:7px;
     border-bottom: 1px solid #888888;
-  }
+}
+
+footer{
+    width: 100%;
+}
+
+.footer-logo{
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+
+.sns-list{
+    display: flex;
+    margin: 0 25%;
+    padding-bottom: 160px;
+}
+
+.sns-item{
+    width: 100%;
+    text-align: center;
+}
+
+.sns-item img{
+    padding-bottom: 15px;
+}
+
+.copy-light {
+    text-align: center;
+    padding-bottom: 20px;
+}

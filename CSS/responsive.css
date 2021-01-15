@@ -1,4 +1,7 @@
 @media (max-width:1000px) {
+    .top-container > .container > h1{
+        font-size: 36px;
+    }
     .list-about {
         flex-wrap: wrap;
     }
@@ -33,6 +36,9 @@
 }
 
 @media (max-width:670px) {
+    .top-container > .container > h1{
+        font-size: 24px;
+    }
     .list-about{
         flex-direction: column;
     }
